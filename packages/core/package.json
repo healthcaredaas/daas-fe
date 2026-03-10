@@ -1,0 +1,84 @@
+{
+  "name": "@daas-fe/core",
+  "version": "1.0.0",
+  "description": "DataSphere Frontend Core - 核心功能包",
+  "keywords": ["vue3", "core", "api", "crud", "store", "router"],
+  "author": "DataSphere Team <chenpan.ai@qq.com>",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./lib": {
+      "import": "./dist/lib/index.js",
+      "types": "./dist/lib/index.d.ts"
+    },
+    "./api": {
+      "import": "./dist/api/index.js",
+      "types": "./dist/api/index.d.ts"
+    },
+    "./stores": {
+      "import": "./dist/stores/index.js",
+      "types": "./dist/stores/index.d.ts"
+    },
+    "./router": {
+      "import": "./dist/router/index.js",
+      "types": "./dist/router/index.d.ts"
+    },
+    "./crud": {
+      "import": "./dist/crud/index.js",
+      "types": "./dist/crud/index.d.ts"
+    },
+    "./utils": {
+      "import": "./dist/utils/index.js",
+      "types": "./dist/utils/index.d.ts"
+    },
+    "./config": {
+      "import": "./dist/config/index.js",
+      "types": "./dist/config/index.d.ts"
+    },
+    "./views": {
+      "import": "./dist/views/index.js",
+      "types": "./dist/views/index.d.ts"
+    },
+    "./enums": {
+      "import": "./dist/enums/index.js",
+      "types": "./dist/enums/index.d.ts"
+    },
+    "./bootstrap": {
+      "import": "./dist/bootstrap/index.js",
+      "types": "./dist/bootstrap/index.d.ts"
+    },
+    "./style.css": "./dist/index.css"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "peerDependencies": {
+    "vue": "^3.5.0",
+    "vue-router": "^4.5.0",
+    "pinia": "^2.3.0",
+    "axios": "^1.9.0",
+    "element-plus": "^2.9.0",
+    "@element-plus/icons-vue": "^2.3.0",
+    "@smallwei/avue": "^3.7.0"
+  },
+  "dependencies": {
+    "nprogress": "^0.2.0",
+    "dayjs": "^1.11.13"
+  },
+  "devDependencies": {
+    "@types/nprogress": "^0.2.3"
+  }
+}
