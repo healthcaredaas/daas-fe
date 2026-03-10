@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Element%20Plus-2.9.x-409eff" alt="Element Plus">
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/license-Apache%202.0-green" alt="License">
+    <img src="https://img.shields.io/badge/license-GPL%20v3-blue" alt="License">
   </a>
 </p>
 
@@ -236,7 +236,7 @@ pnpm type-check
 
 ## 许可证
 
-本项目采用 Apache License 2.0 开源许可证。
+本项目采用 GNU General Public License v3.0 开源许可证。
 
 ## 联系方式
 
