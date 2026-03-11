@@ -12,7 +12,7 @@
     "datasphere"
   ],
   "author": "DataSphere Team <chenpan.ai@qq.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "dev": "pnpm -F @daas-fe/playground dev",

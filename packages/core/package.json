@@ -4,7 +4,7 @@
   "description": "DataSphere Frontend Core - 核心功能包",
   "keywords": ["vue3", "core", "api", "crud", "store", "router"],
   "author": "DataSphere Team <chenpan.ai@qq.com>",
-  "license": "Apache-2.0",
+  "license": "MIT",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
